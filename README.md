@@ -1,6 +1,10 @@
 # User Profiles Application
 
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://user-profiles-advanced-dyw8.vercel.app/)
+
 A responsive React application that displays user profiles with the ability to view, edit, and like user information. Built with React and Ant Design.
+
+🔗 **Live Demo:** [https://user-profiles-advanced-dyw8.vercel.app/](https://user-profiles-advanced-dyw8.vercel.app/)
 
 ## Features
 
