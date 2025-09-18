@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# User Profiles Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive React application that displays user profiles with the ability to view, edit, and like user information. Built with React and Ant Design.
+
+## Features
+
+- **Responsive Design**: Works on mobile, tablet, and desktop
+- **User Profiles**: Displays user information with avatars
+- **Edit Functionality**: Update user details through a modal form
+- **Like Feature**: Like/unlike user profiles
+- **Modern UI**: Clean and intuitive interface using Ant Design
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/user-profile-advanced.git
+   cd user-profile-advanced/profile
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Available Scripts
 
@@ -8,7 +47,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -16,18 +55,36 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- Ant Design
+- Axios
+- React Icons
+
+## API Used
+
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - For user data
+- [DiceBear Avatars](https://www.dicebear.com/) - For generating user avatars
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### `npm run eject`
 

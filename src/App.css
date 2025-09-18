@@ -1,38 +1,70 @@
-.App {
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
   text-align: center;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header h1 {
+  margin: 0;
+  color: #1890ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-grid {
+  padding: 0 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-card {
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ant-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card-actions {
+  background: #fafafa !important;
+}
+
+.ant-card-actions > li {
+  margin: 8px 0 !important;
+}
+
+.ant-card-cover {
+  padding: 20px 20px 0;
+  background-color: #f5f5f5;
+}
+
+.ant-typography h4 {
+  margin-bottom: 0;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .user-grid {
+    padding: 0 8px;
   }
 }
